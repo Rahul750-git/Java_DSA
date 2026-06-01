@@ -11,7 +11,7 @@ public class LCM {
             }
             ans++;
         }
-        System.out.println("LCM of " + a + " and " + b + " : " + ans);
+        System.out.println(" LCM of " + a + " and " + b + " : " + ans);
     }
 
 }
