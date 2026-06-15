@@ -10,7 +10,7 @@ public class methos_SameName {
     }
 
     public static void main(String[] args) {
-        System.out.println(add(9, 7));
+        System.out.println(add(7, 7));
         System.out.println(add(10, 20, 30));
     }
 
