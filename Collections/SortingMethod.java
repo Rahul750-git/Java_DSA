@@ -1,0 +1,22 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class SortingMethod {
+  
+    public static void main(String[] args) {
+        ArrayList<Integer> collect = new ArrayList<>();
+        collect.add(1);
+        collect.add(5);
+        collect.add(2);
+        collect.add(3);
+        collect.add(4);
+        System.out.println("Print entire element " + collect);
+
+        // Sorting Method is:
+      Collections.sort(collect);
+      System.out.println(collect);
+    }
+    
+}
