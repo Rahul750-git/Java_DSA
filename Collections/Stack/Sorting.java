@@ -1,12 +1,14 @@
-package Collections.Arraylist;
+package Collections.Stack;
 
-import java.util.ArrayList;
+
 import java.util.Collections;
+import java.util.Stack;
 
-public class SortingMethod {
+public class Sorting {
+    public class SortingMethod {
   
     public static void main(String[] args) {
-        ArrayList<Integer> collect = new ArrayList<>();
+        Stack<Integer> collect = new Stack<>();
         collect.add(1);
         collect.add(5);
         collect.add(2);
@@ -20,3 +22,5 @@ public class SortingMethod {
     }
     
 }
+    
+} 
