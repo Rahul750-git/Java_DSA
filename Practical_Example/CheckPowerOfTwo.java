@@ -1,0 +1,23 @@
+package Practical_Example;
+
+public class CheckPowerOfTwo {
+    public static void main(String[] args) {
+        // int n = 8;
+        // int count = 0;
+        // while (n != 0) {
+        // if ((n & 1) != 0) {
+        // count++;
+        // }
+        // // right shift to remove this bit
+        // n = n >> 1;
+        // }
+        // System.out.println("Set bit count:" + count);
+
+        int n = 8;
+        if ((n & (n - 1)) == 0) {
+            System.out.println("Power of 2");
+        }else{
+            System.out.println("Not a power of 2");
+        }
+    }
+}

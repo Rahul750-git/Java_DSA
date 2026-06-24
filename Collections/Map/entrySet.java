@@ -12,7 +12,7 @@ public class entrySet {
         mapping.put("ca", "Canda");
         mapping.put("It", "Itly");
         mapping.put("af", "Africa");
-        Set<Map.Entry<String,String>> entrySet = mapping.entrySet();
+        Set<Map.Entry<String, String>> entrySet = mapping.entrySet();
         System.out.println(entrySet);
     }
 }
