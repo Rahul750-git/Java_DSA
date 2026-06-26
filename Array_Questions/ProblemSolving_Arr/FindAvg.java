@@ -1,4 +1,4 @@
-package ProblemSolving_Arr;
+package Array_Questions.ProblemSolving_Arr;
 
 public class FindAvg {
     public static void main(String[] args) {
