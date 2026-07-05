@@ -2,7 +2,7 @@ package Basic_Math;
 
 public class PerfectNum {
     public static void main(String[] args) {
-        int n = 7;
+        int n = 10;
         int sum = 1;
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
