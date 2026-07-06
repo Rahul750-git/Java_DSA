@@ -29,13 +29,14 @@ public class Spiral {
                 result.add(arr[row][endCol]);
             }
             endCol--;
-            // row wise right to left -> ending row print krni h, from ending col to
-            // starting col
+            // row wise right to left -> ending row print krni h,
+            //  from ending col to starting col
             for (int col = endCol; col >= StartCol; col--) {
                 result.add(arr[endRow][col]);
             }
             endRow--;
-            // col wise bottom to top -> starting col print krni h, from ending row to
+            // col wise bottom to top -> starting col print krni h, 
+            // from ending row to
             // starting row
             for (int row = endRow; row >= StartRow; row--) {
                 result.add(arr[row][StartCol]);
