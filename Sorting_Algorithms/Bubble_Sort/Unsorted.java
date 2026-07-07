@@ -1,4 +1,4 @@
-package Bubble_Sort;
+package Sorting_Algorithms.Bubble_Sort;
 
 public class Unsorted {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Selection_Sort;
+package Sorting_Algorithms.Selection_Sort;
 
 public class Unsorted {
     public static void main(String[] args) {
