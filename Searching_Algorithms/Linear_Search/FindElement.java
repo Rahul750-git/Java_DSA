@@ -1,4 +1,4 @@
-package Linear_Search;
+package Searching_Algorithms.Linear_Search;
 
 public class FindElement {
     public static void main(String[] args) {
