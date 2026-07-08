@@ -5,7 +5,7 @@ public class TotalNumberOccurrence {
         int n = arr.length;
         int s = 0;
         int e = n - 1;
-        int LB = -1;
+        int LB = n;
         while (s <= e) {
             int mid = s + (e - s) / 2;
             if (arr[mid] >= target) {
@@ -23,7 +23,7 @@ public class TotalNumberOccurrence {
         int n = arr.length;
         int s = 0;
         int e = n - 1;
-        int UB = -1;
+        int UB = n;
         while (s <= e) {
             int mid = s + (e - s) / 2;
             if (arr[mid] <= target) {
