@@ -7,7 +7,7 @@ public class Demo {
         // int arr[] = new int[5];
 
         // init
-        int brr[] = { 10, 20, 30 };
+        int brr[] = { 10, 20, 30,40,50 };
 
         // Access the Element
         // System.out.println(brr[0]);
