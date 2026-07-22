@@ -1,4 +1,4 @@
-package Searching_Algorithms.Binary_Search.MultiDimensional;
+package Searching_Algorithms.Binary_Search.TwoD_Matrix;
 
 public class SearchElement {
     public static boolean searchMatrix(int[][] matrix, int target) {
