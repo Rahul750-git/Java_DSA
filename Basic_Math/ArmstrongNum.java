@@ -2,7 +2,7 @@ package Basic_Math;
 
 public class ArmstrongNum {
     public static void main(String[] args) {
-        int n = 153;
+        int n = 159;
         int originalNum = n;
         int sum = 0;
         while (n != 0) {
