@@ -11,7 +11,7 @@ public class FindPowerOfTwo {
         return num > 0  && (num & (num-1)) == 0;
     }
     public static void main(String[] args) {
-        int n = 5;
+        int n = 9;
         int ans = isPoweredOfTwo(n);
         System.out.println(ans);
         System.out.println(isPowerOfTwo(4));
