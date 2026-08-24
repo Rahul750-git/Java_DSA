@@ -14,7 +14,7 @@ public class PrintArray {
       printarray(arr,i + 1);
     }
     public static void main(String[] args) {
-        int arr[] = {10,20,30,40,50};
+        int arr[] = {10,20,30,40,50,60};
         int i = 0;
          printarray(arr,i);
     }
